@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Clipper - Privacy Policy</title>
+<style>
+  body { font: 17px/1.6 system-ui, sans-serif; max-width: 42rem; margin: 2rem auto; padding: 0 1rem; color: #1b1b1b; }
+  a { color: #b3321b; }
+  h2 { margin-top: 2rem; }
+</style>
+</head>
+<body>
+<h1>Clipper - Privacy Policy</h1>
+<p>Last updated: 2026-10-23. <a href="index.html">Back to the Clipper home page</a></p>
+
+<p>Clipper is a personal desktop application run by <strong>[YOUR FULL NAME]</strong> ("I", the "developer"). It runs only on the developer's own computer. There is no Clipper server, website account or database: Clipper does not collect data about visitors of this site or about anyone other than the developer.</p>
+
+<h2>YouTube API Services</h2>
+<p>Clipper uses <strong>YouTube API Services</strong>. By using Clipper you agree to be bound by the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>. The Google Privacy Policy applies to the data handled through these services: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>.</p>
+
+<h2>What data Clipper accesses</h2>
+<p>When the owner signs in with Google, Clipper asks for exactly one permission (OAuth scope):</p>
+<ul>
+  <li><code>https://www.googleapis.com/auth/youtube.upload</code> - "Manage your YouTube videos": used only to upload videos to the signed-in user's own channel.</li>
+</ul>
+<p>Clipper does not read your channel's videos, comments, subscribers, analytics or any personal profile data. The only information it receives from YouTube is the video ID of each video it has just uploaded.</p>
+
+<h2>How the data is used and stored</h2>
+<ul>
+  <li>The sign-in token (OAuth access and refresh token) is stored in a file on the developer's computer only. It is used only to upload videos to the channel it belongs to.</li>
+  <li>The video IDs of uploaded videos are written to a local log file on the same computer so the developer can find them.</li>
+  <li>The videos, titles and descriptions uploaded are created by the developer. No YouTube user data is cached beyond the video ID log.</li>
+</ul>
+
+<h2>Sharing</h2>
+<p>I do not sell, rent, transfer or share Google user data or YouTube API data with anyone. I do not use it for advertising, and nobody else, human or automated, reads it.</p>
+
+<h2>Revoking access and deleting data</h2>
+<ul>
+  <li>You can revoke Clipper's access to your Google account at any time at <a href="https://myaccount.google.com/permissions">https://myaccount.google.com/permissions</a>.</li>
+  <li>After revoking, delete the local token file (<code>tools/youtube/token_*.json</code>) to remove the stored credentials. If you ask me by email to delete data I hold about you, I will do so within 7 days.</li>
+  <li>Videos already uploaded stay on YouTube until you delete them in YouTube Studio.</li>
+</ul>
+
+<h2>Children</h2>
+<p>Clipper is not directed at children and collects no data from them.</p>
+
+<h2>Changes and contact</h2>
+<p>If this policy changes, the new version and date will be posted on this page. Questions or deletion requests: <a href="mailto:neailsamson@gmail.com">neailsamson@gmail.com</a>.</p>
+</body>
+</html>
